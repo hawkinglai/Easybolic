@@ -375,8 +375,9 @@ class Hype_Model(nn.Module):
         self.stages = len(pre_blocks)
         self.class_num = class_num
         self.points = points
-
-        ckpt_path = '/home/kitahara/test/Point-Adapter/pointMLP-pytorch/classification_ScanObjectNN/checkpoints/pointMLP-best/best_checkpoint.pth'
+                     
+        # update your ckpt_path here!
+        ckpt_path = '/checkpoints/pointMLP-best/best_checkpoint.pth'
         self.net = load_pretrained(ckpt_path)
         
         self.manifold = PoincareBall(c=1,dim= 512)
