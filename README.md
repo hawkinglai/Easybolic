@@ -1,5 +1,8 @@
 # Easybolic
-This is an easy implementation for "Rethinking the compositionality of point clouds through regularization in the hyperbolic space"
+This is an easy implementation for "Rethinking the compositionality of point clouds through regularization in the hyperbolic space"<br>
+More details could be found below:<br>
+https://github.com/ma-xu/pointMLP-pytorch/tree/main <br>
+https://github.com/diegovalsesia/HyCoRe/tree/main
 
 # BibTeX
 @article{ma2022rethinking,<br>
@@ -17,4 +20,4 @@ This is an easy implementation for "Rethinking the compositionality of point clo
 }
 
 # important
-You need to download the pre train model of PointMLP!
+You need to download the pre-trained model of PointMLP!
