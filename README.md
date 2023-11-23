@@ -20,4 +20,5 @@ https://github.com/diegovalsesia/HyCoRe/tree/main
 }
 
 # important
-You need to download the pre-trained model of PointMLP!
+You need to download the pre-trained model of PointMLP! <br>
+You need to update your pre-trained model path based on the scenario.
